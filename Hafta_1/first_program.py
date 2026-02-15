@@ -1,4 +1,5 @@
 # Python da tekli yorum satırı yapmak isterseniz, # işaretini kullanabilirsiniz.
+# Yorum satırları program tarafından çalıştırılmaz.
 
 '''
 
