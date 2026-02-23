@@ -1,0 +1,161 @@
+
+1 - Sinema Bileti Otomasyonu
+
+Bir sinema salonunda:
+
+* Tam bilet: 150 TL
+* Öğrenci bileti: 100 TL
+* 12 yaş altı: %50 indirim
+
+Kullanıcıdan:
+
+* Yaş
+* Öğrenci olup olmadığı (E/H)
+
+bilgilerini alarak ödenecek bilet fiyatı hesaplayan programı yazınız.
+
+
+---
+
+2- Vücut Kitle İndeksi (BMI) Hesaplama
+
+Kullanıcıdan:
+
+* Boy (metre cinsinden)
+* Kilo (kg)
+
+bilgilerini alarak BMI hesaplayınız:
+
+[
+BMI = kilo / (boy * boy)
+]
+
+Sonuca göre:
+
+* BMI < 18.5 → Zayıf
+* 18.5–24.9 → Normal
+* 25–29.9 → Fazla kilolu
+* 30+ → Obez
+
+olmak üzere kategori bilgisini yazdırınız.
+
+---
+
+3 - Online Sınav Değerlendirme Sistemi
+
+Kullanıcıdan:
+
+* Vize notu
+* Final notu
+
+alınız.
+
+Hesaplama:
+
+* Vize %40
+* Final %60
+
+Kurallar:
+
+* Ortalama ≥ 60 → Geçti
+* Final < 50 → Direkt kaldı
+* Aksi durumda kaldı
+
+Sonucu yazdırınız.
+
+---
+
+4️ - Banka Hesap İşlemi
+
+Kullanıcının:
+
+* Mevcut bakiyesi
+* Çekmek istediği para
+
+
+bilgileri alınacaktır.
+
+Kurallar:
+
+* Günlük limit: 5000 TL
+* Bakiye yetersizse "İşlem reddedildi" uyarısı
+* Limit aşılırsa "Limit aşıldı" mesajı
+* İşlem başarılıysa yeni bakiye yazdırılır.
+
+---
+
+5 - Sayı Analiz Programı (Çoklu Koşul)
+
+Kullanıcıdan bir tam sayı alın ve:
+
+* Pozitif / Negatif / Sıfır
+* Çift / Tek
+* 3’e bölünüyor mu? bölünüyorsa ("3 e bölünüyor mesajı")
+* 2' e bölünüyor mu? ("2 e bölünüyor mesajı")
+* 6' ya bölünüyor mu? ("6 ya bölünüyor mesajı")
+* 10’dan büyük mü? ("10 dan büyük mesajı")
+
+tüm bilgileri ayrı ayrı yazdırınız.
+
+---
+
+6️ - Elektrik Faturası Hesaplama
+
+Kullanıcıdan aylık tüketim (kWh) bilgisini alın.
+
+Tarife:
+
+* 0–150 → 1.5 TL
+* 151–300 → 2.0 TL
+* 300+ → 2.8 TL
+
+Faturayı yukarıda yer alan tarifelere göre hesaplayıp yazdırınız.
+
+---
+
+
+
+7 - Ürün İndirim Hesaplama
+
+Bir mağazada:
+
+* 1000 TL üzeri alışveriş → %10 indirim
+* 2000 TL üzeri → %20 indirim
+* 5000 TL üzeri → %30 indirim
+
+Alışveriş tutarını kullanıcıdan alarak ödenecek tutarı hesaplayınız.
+
+---
+
+8 - Araç Yakıt Hesaplama
+
+Kullanıcıdan:
+
+* Gidilen mesafe (km)
+* Araç tüketimi (litre / 100 km)
+* Litre fiyatı
+
+bigilerini alınız.
+
+Toplam yakıt maliyetini hesaplayınız.
+
+Eğer maliyet 2000 TL’den fazlaysa “Uzun yol” mesajı yazdırınız.
+Maliyet 2000 TL ve aşağısındaysa "Şehir içi tüketim" mesajı yazdırız.
+
+---
+
+9 -  Basit Vergi Hesaplama
+
+Kullanıcının maaşı alınacaktır.
+
+* 0–20.000 → %10 vergi
+* 20.001–40.000 → %20 vergi
+* 40.000+ → %30 vergi
+
+Verilen vergi oranlarına göre net maaşı hesaplayınız.
+
+---
+
+
+
+
