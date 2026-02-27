@@ -1,0 +1,65 @@
+Soru 1: Aşağıdaki çıktıyı elde edeceğiniz python kodununu yazınız.
+
+   1   2   3   4   5   6   7   8   9  10
+   2   4   6   8  10  12  14  16  18  20
+   3   6   9  12  15  18  21  24  27  30
+   4   8  12  16  20  24  28  32  36  40
+   5  10  15  20  25  30  35  40  45  50
+   6  12  18  24  30  36  42  48  54  60
+   7  14  21  28  35  42  49  56  63  70
+   8  16  24  32  40  48  56  64  72  80
+   9  18  27  36  45  54  63  72  81  90
+  10  20  30  40  50  60  70  80  90 100
+
+
+Soru 2: Aşağıdaki çıktıyı verecek olan çarpım matrisini oluşturan kodu yazınız.
+
+    (1,1) (1,2) (1,3) 
+    (2,1) (2,2) (2,3) 
+    (3,1) (3,2) (3,3) 
+    
+Soru 3: 1 ile 100 arasında hem 3’e hem 5’e bölünen sayıları yazdırınız.
+
+Soru 4: Kullanıcıdan sayı alın. Asal mı değil mi yazdırın.
+
+Soru 5: Kullanıcıdan 5 Tane Sayı Alıp En Büyüğünü ekrana yazdırma
+
+Soru 6: Negatif Sayı Girilene Kadar Sayıları toplama
+
+Soru 7: 1–50 Arası çift sayilarin toplamını ekrana yazdırınız.
+
+Soru 8: Faktöriyel Hesaplama (0 Kontrolü Dahil). 
+        Negatif sayi için Faktöriyel hesaplanamaz mesajı verin. 
+        1! = 1
+
+Soru 9: 10 Öğrencinin Not Ortalamasını alınız. 
+        Döngülerle 10 öğrenci için not girişi alınız. 
+        En sonunda 10 öğrencinin not ortalamasını hesaplayınız.
+
+Soru 10: 1–100 Arası Asal Sayıları Yazdırma
+
+
+Soru 11: Menü Tabanlı Basit Hesap Makinesi. 
+         Kullanıcıdan 2 sayı alıp menüde gereken işlemleri yapınız. 
+         0' a basınca programdan çıkış yapınız.
+
+    Çıktı:  1- Toplama
+            2- Çıkarma
+            0- Çıkış
+            Seçiminiz:  
+
+Soru 12: 100’e Kadar Fibonacci Sayılarını yazdırınız.
+
+    Çıktı:  0
+            1
+            1
+            2
+            3
+            5
+            8
+            13
+            21
+            34
+            55
+            89
+

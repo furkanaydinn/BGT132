@@ -1,0 +1,52 @@
+Soru 1: Match - Case ile Hesap Makinesi oluşturma
+        Kullanıcıdan;
+            Bir işlem operatörü (+,-,*,/) alınız.
+            İki adet tamsayı
+
+        alınız.
+
+        Program;
+            match-case yapısını kullanarak seçilen işleme göre sonucu hesaplamalıdır.
+            Eğer bölme işlemi seçilmişse ve ikinci sayı 0 ise “Sıfıra bölme hatası” mesajı verilmelidir.
+            Geçersiz bir operatör girilirse uygun uyarı yazdırılmalıdır.
+
+Soru 2: Tür (Type) Eşlemesi
+        Bir değişken tanımlayınız.
+
+        match-case yapısını kullanarak:
+            Eğer veri türü int ise “Bu bir tam sayıdır”
+            Eğer veri türü float ise “Bu bir ondalıklı sayıdır”
+            Eğer veri türü str ise “Bu bir metin ifadesidir”
+            Diğer durumlarda “Bilinmeyen veri türü” mesajı
+        
+        yazdırınız.
+
+Soru 3: Menü Tabanlı Sistem (Döngü + Match-Case)
+        Sürekli çalışan bir menü sistemi oluşturunuz.
+        
+        Menü:
+
+        1 - Selamla
+        2 - İki sayının toplamını hesapla
+        0 - Çıkış
+
+        Program:
+            while döngüsü ile çalışmalıdır.
+            Seçim kontrolü match-case ile yapılmalıdır.
+            0 girildiğinde program sonlandırılmalıdır.
+            Geçersiz seçimlerde uyarı verilmelidir.
+
+Soru 4: Guard (Koşullu) Pattern Matching:
+
+        Kullanıcıdan bir tamsayı alın
+
+        match-case ve guard (if) kullanarak:
+
+            Pozitif ve çift sayı → “Pozitif çift sayı”
+            Pozitif ve tek sayı → “Pozitif tek sayı”
+            0 → “Sıfır”
+            Negatif sayı → “Negatif sayı”
+
+mesajlarını yazdırınız.
+
+
