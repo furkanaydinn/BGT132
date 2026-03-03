@@ -119,3 +119,79 @@ print("append sonrası:", a)
 c = [1, 2, 3]
 c.extend(b)
 print("extend sonrası:", c)
+
+# Liste tanımlama
+sayilar = [10, 20, 30, 40, 50]
+
+# 2. indeksteki elemanı silme
+del sayilar[2]
+
+print("Eleman silindikten sonra:", sayilar)
+
+liste = [1, 2, 3]
+
+del liste
+# print(liste)  # Hata verir çünkü liste artık yoktur.
+
+notlar = [50, 60, 70, 60, 80, 60]
+
+adet = notlar.count(60)
+
+print("60 sayısı", adet, "kez geçmektedir.")
+
+
+meyveler = ["elma", "armut", "muz", "kiraz"]
+
+konum = meyveler.index("muz")
+
+print("Muzun indeksi:", konum)
+
+veriler = [100, 200, 300]
+
+veriler.clear()
+
+print("Liste içeriği:", veriler)
+
+
+# Copy metodu kopyalar
+liste1 = [1, 2, 3]
+liste2 = liste1.copy()
+
+liste2.append(4)
+
+print("Orijinal liste:", liste1)
+print("Kopya liste:", liste2)
+
+stack = []
+
+stack.append(10)
+stack.append(20)
+stack.append(30)
+
+print("Stack:", stack)
+
+
+# Öğrenci not listesi
+notlar = [70, 85, 90, 70, 60]
+
+# count()
+print("70 sayısı", notlar.count(70), "kez var.")
+
+# index()
+print("90 sayısının indeksi:", notlar.index(90))
+
+# copy()
+yedek = notlar.copy()
+
+# append()
+notlar.append(100)
+
+# del
+del notlar[0]
+
+print("Güncel liste:", notlar)
+
+# clear()
+yedek.clear()
+
+print("Yedek liste:", yedek)
