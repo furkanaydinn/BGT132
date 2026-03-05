@@ -281,8 +281,6 @@ yedek.clear()
 
 print("Yedek liste:", yedek)
 
-
-
 # While döngüsü ile listenin elemanlarını tersten yazdırma
 numbers = [1, 2, 3, 4, 5]
 
@@ -290,3 +288,79 @@ i = len(numbers) - 1
 while i >= 0:
     print(numbers[i])
     i -= 1
+
+# List comprehension ile sayıları iki katına çıkarma
+numbers = [1, 2, 3, 4, 5]
+
+double_list = [x * 2 for x in numbers]
+
+print(double_list)
+
+# List comprehension ile sayıları iki katına çıkarma
+numbers = [1, 2, 3, 4, 5]
+
+double_list = [x * 2 for x in numbers]
+
+print(double_list)
+
+# List comprehension ile çift sayıları seçme
+numbers = [1,2,3,4,5,6,7,8,9,10]
+
+even_numbers = [x for x in numbers if x % 2 == 0]
+
+print(even_numbers)
+
+# Liste elemanlarının uzunluklarını bulma
+words = ["python", "java", "csharp", "go"]
+
+lengths = [len(word) for word in words]
+
+print(lengths)
+
+# Belirli bir harf ile başlayan kelimeleri seçme
+words = ["apple", "banana", "avocado", "cherry", "apricot"]
+
+newlist = [x for x in words if x.startswith("a")]
+
+print(newlist)
+
+# Liste elemanlarını büyük harfe çevirme
+cities = ["ankara", "istanbul", "izmir"]
+
+newlist = [city.upper() for city in cities]
+
+print(newlist)
+
+# Sayıların karelerini alma
+numbers = [1,2,3,4,5]
+
+squares = [x**2 for x in numbers]
+
+print(squares)
+
+# Eğer sayı tek ise 0 yaz, çift ise sayı yaz
+numbers = [1,2,3,4,5,6]
+
+newlist = [x if x % 2 == 0 else 0 for x in numbers]
+
+print(newlist)
+
+# Listeyi dolaşarak 50'den büyük sayıları yazdırma
+numbers = [23, 65, 12, 90, 34, 77]
+
+for n in numbers:
+    if n > 50:
+        print(n)
+
+# Liste elemanlarını indexleri ile birlikte yazdırma
+names = ["Ali", "Ayşe", "Mehmet", "Zeynep"]
+
+for i in range(len(names)):
+    print(i, names[i])
+
+# Liste içindeki sayıları stringe çevirme
+numbers = [10, 20, 30, 40]
+
+newlist = [str(x) for x in numbers]
+
+print(newlist)
