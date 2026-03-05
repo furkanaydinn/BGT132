@@ -1,45 +1,130 @@
+# ================================================================
 # PYTHON PROGRAMLAMA DİLİNDE LİSTELER (LISTS)
-
-# Liste (list), Python dilinde birden fazla veriyi
-# tek bir değişken altında saklamaya olanak sağlayan,
-# sıralı (ordered) ve değiştirilebilir (mutable) bir veri yapısıdır.
-
+# ================================================================
+#
+# Bu dosya Python programlama dilinde kullanılan "Liste (List)"
+# veri yapısını açıklamak ve temel liste işlemlerini örneklerle
+# göstermek amacıyla hazırlanmıştır.
+#
+# Liste (List), Python'da birden fazla veriyi tek bir değişken
+# içerisinde saklamaya olanak sağlayan en temel veri yapılarından
+# biridir.
+#
 # Listeler:
-# - Köşeli parantez [] ile tanımlanır.
-# - Farklı veri tiplerini aynı yapı içerisinde barındırabilir.
-# - Elemanlarına indeks (index) numarası ile erişilir.
+# - Köşeli parantez [] kullanılarak tanımlanır.
+# - Birden fazla veri tipini aynı yapı içerisinde barındırabilir.
+# - Elemanlara indeks numarası ile erişilebilir.
 # - 0'dan başlayan indeksleme sistemine sahiptir.
-
-# Liste veri yapısının temel özellikleri:
-# - Ordered (Sıralı): Elemanlar belirli bir sıraya sahiptir.
-# - Mutable (Değiştirilebilir): Elemanlar sonradan değiştirilebilir.
-# - Dynamic (Dinamik): Eleman ekleme ve silme işlemleri mümkündür.
-
-# Liste işlemlerinin temel kategorileri:
-# - Eleman ekleme (append, insert, extend)
-# - Eleman silme (remove, pop, del)
-# - Eleman güncelleme
-# - Liste uzunluğu öğrenme (len)
+#
+#
+# ----------------------------------------------------------------
+# LİSTE VERİ YAPISININ TEMEL ÖZELLİKLERİ
+# ----------------------------------------------------------------
+#
+# 1) Ordered (Sıralı)
+#    Liste elemanları belirli bir sıraya sahiptir ve bu sıra korunur.
+#
+# 2) Mutable (Değiştirilebilir)
+#    Liste oluşturulduktan sonra elemanlar değiştirilebilir.
+#
+# 3) Dynamic (Dinamik)
+#    Listeye yeni elemanlar eklenebilir veya mevcut elemanlar silinebilir.
+#
+# 4) Heterogeneous
+#    Aynı liste içinde farklı veri tipleri bulunabilir.
+#    (int, string, float, boolean vb.)
+#
+#
+# ----------------------------------------------------------------
+# LİSTE OLUŞTURMA
+# ----------------------------------------------------------------
+#
+# Liste oluşturmak için köşeli parantez kullanılır.
+#
+# Örnek:
+#
+# sayilar = [10, 20, 30]
+# bolumler = ["programlama", "mekatronik", "makine"]
+# karisik_liste = [10, "python", 3.14, True]
+#
+#
+# ----------------------------------------------------------------
+# LİSTE İŞLEMLERİNİN TEMEL KATEGORİLERİ
+# ----------------------------------------------------------------
+#
+# 1) Eleman ekleme
+#    - append()
+#    - insert()
+#    - extend()
+#
+# 2) Eleman silme
+#    - remove()
+#    - pop()
+#    - del
+#
+# 3) Eleman güncelleme
+#    - indeks kullanılarak değer değiştirilebilir
+#
+# 4) Liste uzunluğu öğrenme
+#    - len() fonksiyonu kullanılır
+#
+# 5) Liste dilimleme (Slicing)
+#    - listenin belirli aralıkları alınabilir
+#
+# 6) Liste üzerinde döngü ile gezinme
+#    - for döngüsü
+#    - while döngüsü
+#
+# 7) Liste metotları
+#    - sort()
+#    - reverse()
+#    - count()
+#    - index()
+#    - clear()
+#    - copy()
+#
+#
+# ----------------------------------------------------------------
+# LIST COMPREHENSION
+# ----------------------------------------------------------------
+#
+# Python'da liste üretmenin kısa ve güçlü bir yoludur.
+#
+# Genel kullanım şekli:
+#
+# newlist = [expression for item in iterable if condition]
+#
+# Bu yapı sayesinde döngü ve koşul kullanarak hızlı bir şekilde
+# yeni listeler oluşturulabilir.
+#
+#
+# ----------------------------------------------------------------
+# BU DOSYADA NELER VAR
+# ----------------------------------------------------------------
+#
+# Bu dosyada yer alan örnekler:
+#
+# - Liste oluşturma
+# - Liste elemanlarına erişim
+# - Eleman ekleme ve silme işlemleri
+# - Liste güncelleme
 # - Liste dilimleme (slicing)
-# - Liste üzerinde döngü ile gezinme
-# - Liste metotları (sort, reverse, count, index)
-# clear, copy, push, list()
-# loop lists
-# List Comprehension
-# iterable
-
-
-################ ÖRNEKLER #####################
+# - Döngüler ile liste kullanımı
+# - List comprehension örnekleri
+#
+# ================================================================
+#                         ÖRNEKLER
+# ================================================================
 
 
 # Liste tanımlama
 sayilar = [10, 20, 30, 40, 50]
 
-
 # Listeyi ekrana yazdırma
 print("Liste:", sayilar)
 print("Liste'nin türü",type(sayilar))
 
+# Liste elemanlarına index numarasıyla erişebilirsiniz.
 # İlk eleman
 print("İlk eleman:", sayilar[0])
 
@@ -195,3 +280,13 @@ print("Güncel liste:", notlar)
 yedek.clear()
 
 print("Yedek liste:", yedek)
+
+
+
+# While döngüsü ile listenin elemanlarını tersten yazdırma
+numbers = [1, 2, 3, 4, 5]
+
+i = len(numbers) - 1
+while i >= 0:
+    print(numbers[i])
+    i -= 1
