@@ -26,7 +26,7 @@ Soru 3: Menü Tabanlı Sistem (Döngü + Match-Case)
         
         Menü:
 
-        1 - Selamla
+        1 - Hoşgeldiniz mesajı
         2 - İki sayının toplamını hesapla
         0 - Çıkış
 
@@ -48,5 +48,6 @@ Soru 4: Guard (Koşullu) Pattern Matching:
             Negatif sayı → “Negatif sayı”
 
 mesajlarını yazdırınız.
+
 
 

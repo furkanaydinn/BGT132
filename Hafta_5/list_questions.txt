@@ -1,0 +1,66 @@
+Soru 1: "tamsayılar" isminde bir liste tanımlayarak içine 5 adet tam sayı ekleyiniz.
+        append() metodunu kullanarak listeye 2 yeni sayı daha ekleyiniz ve listeyi yazdırınız.
+
+Soru 2: insert() metodunu kullanarak:
+            languages = ["C","Java","C#","Javascript"] listesinin 2. indeksine "Python" ifadesini ekleyiniz.
+
+Soru 3: İki ayrı liste tanımlayınız.
+        extend() metodunu kullanarak bu iki listeyi birleştiriniz.
+
+Soru 4: Bir listeden "BGT132" isimli değerini remove() metodu ile siliniz.
+        Değer listede yoksa hata oluşmasını engelleyen bir kontrol yapısı yazınız.
+
+Soru 5: Bir listede pop() metodunu kullanarak:
+
+            Son elemanı siliniz.
+            2. indeksteki elemanı siliniz.
+
+Soru 6:     del anahtar kelimesini kullanarak:
+
+                Listenin 3. indeksini siliniz.
+                Listenin tamamını siliniz.
+
+Soru 7: Bir listedeki 3. elemanı başka bir değer ile güncelleyiniz.
+
+
+Soru 8: Kullanıcıdan 5 sayı alarak bir listeye ekleyiniz.
+        Listenin uzunluğunu len() fonksiyonu ile ekrana yazdırınız.
+
+Soru 9: liste = [0,1,2,3,4,5,6,7,8,9] Bu liste üzerinden;
+
+        İlk 5 elemanı alınız
+        Son 3 elemanı alınız
+        2 ile 7 arasını alınız
+
+Soru 10: Bir liste üzerinde for döngüsü kullanarak tüm elemanları yazdırınız.
+
+Soru 11: Döngü ve koşul yapılarını birlikte kullanarak, bir listedeki çift sayıları ayrı bir listeye aktaran programı yazınız.
+
+Soru 12: sayilar = [45, 12, 78, 3, 56] bu listeyi küçükten büyüğe sıralayınız. Ardından ter çeviriniz.
+
+Soru 13: Klavyeden sayı gir. Bir listede 60 değerinin kaç kez geçtiğini bulan programı yazınız.
+
+Soru 14: Bir listedeki tüm sayıları for döngüsü kullanarak toplayan ve toplamı ekrana yazdıran programı yazınız.
+
+Soru 15: Bir listede bulunan sayılardan 50’den büyük olanları ayrı bir listeye aktaran programı yazınız.
+
+Soru 16: Bir listede bulunan tek sayıları for döngüsü ve if koşulu kullanarak ekrana yazdırınız.
+
+Soru 17: Bir listede bulunan sayılar içinde en büyük sayıyı döngü ve koşul kullanarak bulan programı yazınız. (max() kullanmadan)
+
+Soru 18: Bir listede bulunan sayılar içinde en küçük sayıyı döngü ve koşul kullanarak bulan programı yazınız.
+
+Soru 19: Kullanıcıdan alınan 10 sayıyı bir listeye ekleyiniz.
+Daha sonra listedeki negatif sayıları ayrı bir listeye aktaran programı yazınız.
+
+Soru 20: Bir liste içindeki sayılardan 3’e tam bölünenleri bulan ve ekrana yazdıran programı yazınız.
+
+Soru 21: Bir liste içinde aynı elemandan birden fazla olup olmadığını döngü ve koşul yapıları kullanarak kontrol eden programı yazınız.
+
+Soru 22: Bir liste içindeki pozitif ve negatif sayıların kaç tane olduğunu ayrı ayrı bulan programı yazınız.
+
+Soru 23: Bir liste içindeki sayıları dolaşarak her elemanın karesini hesaplayıp yeni bir listeye ekleyen programı yazınız.
+
+Soru 24: Bir listede bulunan sayılardan 10 ile 50 arasında olanları ekrana yazdıran programı yazınız.
+
+Soru 25: Bir liste içinde kullanıcının girdiği sayının listede olup olmadığını döngü ve koşul kullanarak kontrol eden programı yazınız.
