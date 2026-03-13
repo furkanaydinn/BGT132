@@ -510,7 +510,6 @@ ogrenciler = {
 for numara, bilgi in ogrenciler.items():
     print(numara, bilgi["isim"], bilgi["not"])
 
-
 # Pop metodu kullanımı
 print("İlk sözlük:", ogrenciler)
 silinen = ogrenciler.pop("yas")

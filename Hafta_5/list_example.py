@@ -116,7 +116,6 @@
 #                         ÖRNEKLER
 # ================================================================
 
-
 # Liste tanımlama
 sayilar = [10, 20, 30, 40, 50]
 
@@ -288,14 +287,7 @@ i = len(numbers) - 1
 while i >= 0:
     print(numbers[i])
     i -= 1
-
-# List comprehension ile sayıları iki katına çıkarma
-numbers = [1, 2, 3, 4, 5]
-
-double_list = [x * 2 for x in numbers]
-
-print(double_list)
-
+    
 # List comprehension ile sayıları iki katına çıkarma
 numbers = [1, 2, 3, 4, 5]
 

@@ -1,0 +1,116 @@
+Soru 1: Kullanıcıdan 5 adet sayı alıp bunları bir tuple içine yerleştiren 
+programı yazınız.
+
+Soru 2: sayilar = (12, 45, 7, 23, 56, 9) Verilen tuple içindeki en büyük sayıyı 
+bulan programı yazınız.
+
+Soru 3: sayilar = (10, 15, 20, 25, 30, 35) Verilen tuple içindeki çift sayıları 
+ekrana yazdıran programı yazınız.
+
+Soru 4: sayilar = (5, 8, 11, 14, 17, 20) Verilen tuple içindeki 
+tek sayıların toplamını hesaplayan programı yazınız.
+
+Soru 5: veriler = (3, 6, 9, 12, 15) Verilen tuple içindeki elemanları 
+tersten yazdıran programı yazınız.
+
+
+Soru 6: veriler = (10, 20, 10, 30, 10, 40) Verilen tuple içinde 
+10 sayısının kaç kez geçtiğini bulan programı yazınız.
+
+
+Soru 7: sayilar = (5, 12, 7, 18, 3, 20) Verilen tuple içindeki 
+10’dan büyük sayıları yeni bir listeye ekleyen programı yazınız.
+
+Soru 8: kelimeler = ("", "programlama", "veri", "bilim") Verilen 
+tuple içindeki kelimeleri büyük harfe çeviren programı yazınız.
+
+Soru 9: sayilar = (2, 4, 6, 8, 10) Verilen 
+tuple içindeki sayıların karelerini hesaplayarak yazdıran programı yazınız.
+
+Soru 10: sayilar = (1, 2, 3, 4, 5) Verilen  
+         tuple içindeki sayıları kullanarak 
+         liste comprehension ile sayilarin iki katını alan 
+         yeni bir liste 
+         oluşturan programı yazınız.
+
+Soru 11: sayilar = [1,2,3,2,4,5,3,6] Bu listede bulunan 
+tekrar eden elemanları kaldırarak set kullanarak tekrarsız liste elde eden programı yazınız.
+
+Soru 12: A = {1,2,3,4} ve B = {3,4,5,6} Verilen iki kümenin 
+kesişimini bulan programı yazınız.
+
+Soru 13: A = {1,2,3} ve B = {4,5,6} Verilen iki kümenin birleşimini 
+bulan programı yazınız.
+
+Soru 14: sayilar = {2,5,7,9,12,15} Verilen set içindeki 
+5’ten büyük sayıları yazdıran programı yazınız.
+
+Soru 15: renkler = {"kırmızı","mavi","yeşil","sarı"} Verilen set 
+içindeki elemanları for döngüsü ile yazdıran programı yazınız.
+
+Soru 16: Kullanıcıdan alınan 5 adet sayıyı bir set içine ekleyen programı yazınız.
+
+Soru 17: sayilar = {3,6,9,12,15,18} Verilen set içindeki çift sayıları 
+yeni bir sete ekleyen programı yazınız.
+
+Soru 18: sayilar = {4,7,2,9,5} Verilen set içindeki sayıların toplamını hesaplayan programı yazınız.
+
+Soru 19: sayilar = {12,45,7,23,56,9} Verilen set içindeki en büyük sayıyı bulan programı yazınız.
+
+Soru 20: sayilar = {1,2,3,4,5} Verilen set içindeki sayıları set comprehension 
+kullanarak iki katına çıkaran programı yazınız.
+
+Soru 21: Bir öğrencinin isim, yaş ve bölüm bilgilerini içeren bir dictionary oluşturan programı yazınız.
+
+Soru 22: ogrenci = {"isim":"Ali","yas":20,"bolum":"Bilgisayar"}
+         Bu dictionary içindeki anahtarları (keys) yazdıran programı yazınız.
+
+Soru 23: ogrenci = {"isim":"Ali","yas":20,"bolum":"Bilgisayar"}
+         Bu dictionary içindeki değerleri (values) yazdıran programı yazınız.
+
+Soru 24: ogrenci = {"isim":"Ali","yas":20,"bolum":"Bilgisayar"}
+         Bu dictionary içindeki anahtar ve değerleri birlikte yazdıran programı yazınız.
+
+Soru 25:
+
+    notlar = {
+    "Ali":45,
+    "Ayşe":78,
+    "Mehmet":90,
+    "Zeynep":40
+    }
+
+notlar sözlüğü içindeki notu 50’nin altında olan öğrencileri yazdıran programı yazınız.
+
+Soru 26: notlar = {"Ali":60,"Ayşe":75,"Mehmet":80,"Zeynep":55}
+         Bu dictionary içindeki notların ortalamasını hesaplayan programı yazınız.
+
+Soru 27: Kullanıcıdan 3 öğrencinin adını ve notunu alarak bir dictionary içine ekleyen programı yazınız.
+
+Soru 28: notlar = {"Ali":60,"Ayşe":75,"Mehmet":90,"Zeynep":85}
+         Bu dictionary içindeki en yüksek notu alan öğrenciyi bulan programı yazınız.
+
+Soru 29: notlar = {"Ali":60,"Ayşe":75,"Mehmet":80}
+
+         Bu dictionary içindeki tüm notları 10 puan artıran programı yazınız.
+
+Soru 30: notlar = {"Ali":85,"Ayşe":72,"Mehmet":48,"Zeynep":91}
+
+         Bu dictionary içindeki notlara göre
+
+
+    Ali : 85 -> AA
+    Ayşe : 72 -> BB
+    Mehmet : 48 -> FF
+    Zeynep : 91 -> AA
+
+harf notu hesaplayan programı yazınız. Programa göre aşağıdaki çıktıyı veriniz.
+
+
+
+
+
+
+
+
+
