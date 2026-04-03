@@ -1,0 +1,59 @@
+Soru 1:
+Girilen bir sayının basamaklarının toplamını hesaplayan bir fonksiyon yazınız.
+
+Soru 2:
+Bir sayının palindrom (tersi kendisine eşit) olup olmadığını kontrol eden fonksiyon yazınız.
+
+Soru 3: liste = [10,20,30,-40,25,-78-,-90]
+Bir listenin sadece pozitif sayılarını içeren yeni bir liste döndüren fonksiyon yazınız.
+
+Soru 4:
+Verilen bir metindeki tüm harfleri büyük harfe çeviren bir fonksiyon yazınız (built-in kullanmadan deneyiniz).
+
+Soru 5:
+Bir listenin elemanlarını ters sırayla döndüren fonksiyon yazınız (reverse kullanmadan).
+
+Soru 6:
+Verilen bir sayının kaç basamaklı olduğunu bulan fonksiyon yazınız.
+
+Soru 7:
+Bir listenin ortalamasını hesaplayan fonksiyon yazınız (sum ve len kullanmadan).
+
+Soru 8:
+İki listeyi parametre olarak alıp ortak elemanları döndüren bir fonksiyon yazınız.
+
+Soru 9:
+Bir string içindeki sadece rakamları ayıklayıp yeni bir string döndüren fonksiyon yazınız.
+
+Soru 10:
+Verilen bir metindeki kelimeleri alfabetik sıraya dizen bir fonksiyon yazınız.
+
+Soru 11:
+Bir sayının mükemmel sayı olup olmadığını kontrol eden fonksiyon yazınız.
+
+Soru 12:
+Bir listenin en büyük ikinci elemanını bulan fonksiyon yazınız.
+
+Soru 13:
+Verilen bir string içinde en uzun kelimeyi bulan fonksiyon yazınız.
+
+Soru 14:
+Bir sayının binary (ikilik) karşılığını hesaplayan fonksiyon yazınız (hazır fonksiyon kullanmadan).
+
+Soru 15:
+İç içe listelerden oluşan bir yapıyı düzleştiren (flatten) fonksiyon yazınız.
+
+Soru 16:
+`args` kullanarak verilen sayılar içinde en küçük değeri bulan fonksiyon yazınız.
+
+Soru 17:
+`kwargs` kullanarak girilen sayısal değerlerin ortalamasını hesaplayan fonksiyon yazınız.
+
+Soru 18:
+Varsayılan parametre kullanarak bir metni belirli sayıda tekrar eden fonksiyon yazınız (varsayılan tekrar sayısı 3).
+
+Soru 19:
+Bir fonksiyon yazınız: Eğer parametre olarak sayı verilirse karesini, string verilirse uzunluğunu döndürsün.
+
+Soru 20:
+Bir fonksiyon içinde başka bir fonksiyon tanımlayarak girilen sayının hem karesini hem küpünü hesaplayan yapı oluşturunuz.

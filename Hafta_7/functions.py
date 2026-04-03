@@ -186,17 +186,20 @@
 
 # Parametresiz fonksiyon örneği
 def selam_ver():
-     print("Merhaba Dünya")
+    print("Merhaba Dünya")
 
 selam_ver()
 
 
+
+
 # Varsayılan parametreli örnek
-def notOrtalamasiHesapla(vizeNotu=0, finalNotu=0):
+def notOrtalamasiHesapla(vizeNotu=0.0, finalNotu=0.0):
      hesap = (vizeNotu*40)/100 + (finalNotu*60)/100
      return hesap
 
-ortalama = notOrtalamasiHesapla(50,60)
+ortalama = notOrtalamasiHesapla()
+
 
 print(f"Ortalama not: {ortalama}")
 
@@ -205,16 +208,16 @@ print(f"Ortalama not: {ortalama}")
 def hesapla(a, b):
     return a + b, a * b, a/b
 
-toplam, carpim, bolme = hesapla(3, 4)
+toplam, carpim, bolme = hesapla(3,4)
 print("Toplam:", toplam)
 print("Çarpım:", carpim)
 print("Bolme:", bolme)
      
 
-def usAlma(sayi,us):
-     return sayi**us
+def usAlma(sayi,us): 
+     return sayi**us    
 
-usAlma(5,4)
+print(usAlma(5,4))
 
 
 # args kullanımı, birden fazla argüman girilmesi için
@@ -227,12 +230,14 @@ def carpim(*sayilar):
 print(carpim(1,2,3))
 print(carpim(5,10,15,20))
 
+
+
 # kwargs kullanımı, sozluk yapısı için
-def akademik(**kwargs):
+def akademik(**argumanlar):
     bilgiler = []
-    for k, v in kwargs.items():
+    for k, v in argumanlar.items():
         bilgiler.append(k + ": " + str(v))
-    return ", ".join(bilgiler)
+    return ", ".join(bilgiler), type(bilgiler)
 
 print(akademik(Name="Furkan", Bolum="Programcılık", Ders="BGT132"))
 
@@ -240,21 +245,23 @@ print(akademik(Name="Furkan", Bolum="Programcılık", Ders="BGT132"))
 # Global değişken
 # Fonksiyon dışında, önceden tanımlanmış
 # Her yerden erişilebilir.
-okul = "Ostim Teknik Üniversitesi"
+
 
 def okulBilgi():
+    okul = "OSTİM"
     return okul
 
 print(okulBilgi())
 
 # Local(Yerel) Değişken
 # Fonksiyon dışından erişilemez
+y = 80
 def yeniFonksiyon():
     y = 45
-    print(y)
+    return y
 
 yeniFonksiyon()
-# print(y) bu şekilde hata verir
+print(y)
 
 
 def dis_fonksiyon():
@@ -300,7 +307,10 @@ def faktoriyel(n):
         return 1
     return n * faktoriyel(n-1)
 
+
 print(faktoriyel(5))
+
+
 
 def not_hesapla(notu):
     if notu >= 85:
@@ -327,3 +337,4 @@ def hesapla(secim, a, b):
 menu()
 sonuc = hesapla(1, 10, 5)
 print("Sonuç:", sonuc)
+
