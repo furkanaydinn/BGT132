@@ -190,9 +190,6 @@ def selam_ver():
 
 selam_ver()
 
-
-
-
 # Varsayılan parametreli örnek
 def notOrtalamasiHesapla(vizeNotu=0.0, finalNotu=0.0):
      hesap = (vizeNotu*40)/100 + (finalNotu*60)/100
@@ -200,9 +197,7 @@ def notOrtalamasiHesapla(vizeNotu=0.0, finalNotu=0.0):
 
 ortalama = notOrtalamasiHesapla()
 
-
 print(f"Ortalama not: {ortalama}")
-
 
 # Birden fazla değer döndürme
 def hesapla(a, b):
@@ -213,12 +208,10 @@ print("Toplam:", toplam)
 print("Çarpım:", carpim)
 print("Bolme:", bolme)
      
-
 def usAlma(sayi,us): 
      return sayi**us    
 
 print(usAlma(5,4))
-
 
 # args kullanımı, birden fazla argüman girilmesi için
 def carpim(*sayilar):
@@ -230,8 +223,6 @@ def carpim(*sayilar):
 print(carpim(1,2,3))
 print(carpim(5,10,15,20))
 
-
-
 # kwargs kullanımı, sozluk yapısı için
 def akademik(**argumanlar):
     bilgiler = []
@@ -241,11 +232,9 @@ def akademik(**argumanlar):
 
 print(akademik(Name="Furkan", Bolum="Programcılık", Ders="BGT132"))
 
-
 # Global değişken
 # Fonksiyon dışında, önceden tanımlanmış
 # Her yerden erişilebilir.
-
 
 def okulBilgi():
     okul = "OSTİM"
@@ -310,8 +299,6 @@ def faktoriyel(n):
 
 print(faktoriyel(5))
 
-
-
 def not_hesapla(notu):
     if notu >= 85:
         return "AA"
@@ -337,4 +324,3 @@ def hesapla(secim, a, b):
 menu()
 sonuc = hesapla(1, 10, 5)
 print("Sonuç:", sonuc)
-
