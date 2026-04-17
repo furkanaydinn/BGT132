@@ -1,0 +1,42 @@
+1.	veri.txt adlı bir dosya oluşturup içine "Merhaba Dünya" yazan programı yazınız.
+2.	veri.txt dosyasını açıp içeriğini ekrana yazdıran programı yazınız.
+3.	Kullanıcıdan alınan bir metni kullanici.txt dosyasına yazan programı yazınız.
+4.	sayilar.txt dosyasına 1’den 10’a kadar olan sayıları alt alta yazan programı yazınız.
+5.	sayilar.txt dosyasındaki sayıları okuyup ekrana yazdıran programı yazınız.
+6.	metin.txt dosyasındaki tüm satırları büyük harfe çevirerek ekrana yazdıran programı yazınız.
+7.	isimler.txt dosyasına kullanıcıdan alınan 5 ismi alt alta yazan programı yazınız.
+8.	isimler.txt dosyasındaki isimleri okuyup kaç tane isim olduğunu bulan programı yazınız.
+9.	notlar.txt dosyasına öğrencilerin notlarını yazan ve ortalamasını hesaplayan programı yazınız.
+10.	metin.txt dosyasındaki kelime sayısını bulan programı yazınız.
+11.	metin.txt dosyasındaki satır sayısını bulan programı yazınız.
+12.	veri.txt dosyasına yazılan metnin sonuna "Programlama öğreniyorum" ifadesini ekleyen programı yazınız.
+13.	sayilar.txt dosyasındaki sayılardan sadece çift olanları ekrana yazdıran programı yazınız.
+14.	metin.txt dosyasındaki tüm "a" harflerini "e" ile değiştirip yeni bir dosyaya yazan programı yazınız.
+15.	eski.txt dosyasındaki verileri okuyup yeni.txt dosyasına kopyalayan programı yazınız.
+16.	Kullanıcıdan alınan cümleyi dosyaya yazan ve daha sonra ters çevirerek tekrar dosyaya ekleyen programı yazınız.
+17.	sayilar.txt dosyasındaki sayıları okuyup en büyük ve en küçük sayıyı bulan programı yazınız.
+18.	metin.txt dosyasındaki her satırın başına satır numarası ekleyerek yeni bir dosyaya yazan programı yazınız.
+19.	Kullanıcının girdiği dosya adının var olup olmadığını kontrol eden programı yazınız.
+20.	Bir dosyadaki tekrar eden satırları kaldırarak yeni bir dosyaya yazan programı yazınız.
+
+21. Dosyaya Yazma Fonksiyonu
+Kullanıcıdan alınan metni dosyaya yazan bir yaz(metin) fonksiyonu tanımlayınız.
+Bu fonksiyonu kullanarak "veri.txt" dosyasına veri yazan programı oluşturunuz.
+
+
+22. Dosyadan Okuma Fonksiyonu
+"veri.txt" dosyasını okuyup içeriğini ekrana yazdıran oku() isimli bir fonksiyon yazınız.
+Ana programda bu fonksiyonu çağırınız.
+
+23.	Sayı Toplama Fonksiyonu (Dosyadan Okuma)
+"sayilar.txt" dosyasındaki sayıları okuyup toplamını bulan toplam_hesapla() fonksiyonunu yazınız.
+Sonucu ekrana yazdırınız.
+
+24.	Kelime Sayma Fonksiyonu
+"metin.txt" dosyasını parametre olarak alan ve içindeki kelime sayısını döndüren kelime_say(dosya_adi) fonksiyonunu yazınız.
+Ana programda bu fonksiyonu kullanarak sonucu gösteriniz.
+
+25.	Kopyalama Fonksiyonu
+Parametre olarak iki dosya adı alan kopyala(kaynak, hedef) fonksiyonunu yazınız.
+Bu fonksiyon, kaynak dosyadaki verileri okuyup hedef dosyaya yazmalıdır.
+Fonksiyonu kullanarak "eski.txt" dosyasını "yeni.txt" dosyasına kopyalayınız.

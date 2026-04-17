@@ -1,0 +1,82 @@
+
+Soru 1: Kullanıcıdan bir metin alıp tüm harflerini büyük yapan programı yazınız.
+
+Soru 2: Kullanıcıdan alınan bir metnin tüm harflerini küçük harfe çeviren programı yazınız.
+
+Soru 3: Kullanıcıdan alınan metnin başındaki ve sonundaki boşlukları temizleyen programı yazınız.
+
+Soru 4: Kullanıcıdan alınan bir cümlede kaç tane "a" harfi olduğunu bulan programı yazınız.
+
+Soru 5: Kullanıcıdan alınan metinde "python" kelimesi geçiyorsa "Bulundu" yazdıran programı yazınız.
+
+Soru 6: Kullanıcıdan alınan metnin "Merhaba" ile başlayıp başlamadığını kontrol eden programı yazınız.
+
+Soru 7: Kullanıcıdan alınan metnin "!" ile bitip bitmediğini kontrol eden programı yazınız.
+
+Soru 8: Kullanıcıdan alınan bir cümledeki tüm boşlukları "-" ile değiştiren programı yazınız.
+
+Soru 9: Kullanıcıdan alınan bir cümleyi kelimelere ayırıp liste haline getiren programı yazınız.
+
+Soru 10: Bir liste içinde bulunan kelimeleri "_" ile birleştirerek tek bir string haline getiren programı yazınız.
+
+Soru 11: Kullanıcıdan alınan bir metindeki tüm "a" harflerini "e" ile değiştiren programı yazınız.
+
+Soru 12: Kullanıcıdan alınan metnin sadece ilk harfini büyük yapan programı yazınız.
+
+Soru 13: Kullanıcıdan alınan bir cümledeki her kelimenin ilk harfini büyük yapan programı yazınız.
+
+Soru 14: Kullanıcıdan alınan metnin tamamen harflerden oluşup oluşmadığını kontrol eden programı yazınız.
+
+Soru 15: Kullanıcıdan alınan metnin tamamen rakamlardan oluşup oluşmadığını kontrol eden programı yazınız.
+
+Soru 16: Kullanıcıdan alınan metnin uzunluğunu bulan programı yazınız.
+
+Soru 17: Kullanıcıdan alınan bir metni ters çeviren programı yazınız (string slicing ile).
+
+Soru 18: Kullanıcıdan alınan metinde kaç kelime olduğunu bulan programı yazınız.
+
+Soru 19: Kullanıcıdan alınan metinde en uzun kelimeyi bulan programı yazınız.
+
+Soru 20: Kullanıcıdan alınan bir cümlede tekrar eden kelimeleri kaldırarak yeni bir string oluşturan programı yazınız.
+
+Soru 21: Kullanıcıdan bir metin alan ve bu metindeki kelimeleri analiz eden bir fonksiyon yazınız.
+
+    Fonksiyon:
+
+    Metni küçük harfe çevirsin
+    Kelimelere ayırsın
+    Uzunluğu 5’ten büyük olan kelimeleri ayrı bir listede tutsun
+    Toplam kelime sayısını ve uzun kelimeleri ekrana yazdırsın
+
+Soru 22:  Kullanıcıdan alınan bir metnin palindrom olup olmadığını kontrol eden bir fonksiyon yazınız.
+
+            Büyük/küçük harf duyarsız olmalıdır
+            Boşluklar dikkate alınmamalıdır
+            Sonuç olarak "Palindrom" veya "Palindrom değil" döndürmelidir
+
+Soru 23: Kullanıcıdan alınan bir metindeki harflerin frekansını hesaplayan bir fonksiyon yazınız.
+
+            Tüm harfler küçük harfe çevrilmelidir
+            Sadece alfabetik karakterler dikkate alınmalıdır
+            Her harfin kaç kez geçtiği ekrana yazdırılmalıdır
+
+Soru 24: Kullanıcıdan alınan bir şifrenin güçlü olup olmadığını kontrol eden bir fonksiyon yazınız.
+        Şifre:
+
+            En az 8 karakter olmalıdır
+            En az bir büyük harf içermelidir
+            En az bir küçük harf içermelidir
+            En az bir rakam içermelidir
+            Bu şartlara göre "Güçlü şifre" veya "Zayıf şifre" çıktısı veriniz
+
+Soru 25: Kullanıcıdan alınan bir cümledeki kelimeleri filtreleyen bir fonksiyon yazınız.
+            
+            Fonksiyon:
+
+            Kelimeleri listeye ayırmalıdır
+            Sadece harflerden oluşan kelimeleri seçmelidir
+            Uzunluğu en az 4 olan kelimeleri almalıdır
+            Seçilen kelimeleri küçük harfe çevirerek liste halinde yazdırmalıdır
+            Kaç tane uygun kelime olduğunu da ekrana yazdırmalıdır
+
+
