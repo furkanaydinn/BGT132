@@ -125,12 +125,12 @@ except FileNotFoundError:
 
 try:
     # Dosyaya yaz
-    with open("notlar.txt", "w") as dosya:
+    with open("notlar1.txt", "w") as dosya:
         dosya.write("BGT132 Yazılım Geliştirme Teknolojileri\n")
         dosya.write("Dosya işlemleri gerçekleştirildi\n")
 
     # Dosyadan oku
-    with open("notlar.txt", "r") as dosya:
+    with open("notlar1.txt", "r") as dosya:
         for satir in dosya:
             print(satir.strip())
 
